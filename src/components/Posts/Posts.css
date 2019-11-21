@@ -1,0 +1,32 @@
+.postContainer {
+    height: 70vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    align-self: center;
+    padding: 1%;
+    cursor: pointer;
+    /* border: 1px solid pink; */
+}
+
+.postContainer ul {
+    list-style: none;
+}
+
+.postContainer ul li {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 1%;
+    font-weight: 400;
+    font-size: 110%;
+    line-height: 145%;
+    word-spacing: 2px;
+    transition: transform 0.5s ease;
+}
+
+.postContainer ul li:hover{
+    transform: translateX(10px);
+    /* background-color: #039be5; */
+
+}

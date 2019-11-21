@@ -1,0 +1,33 @@
+.paginationContainer {
+    width: 80%;
+    height: 80px;
+    margin-left: 10%;
+    margin-top: 3%;
+    align-self: center;
+    padding: 1%;
+    cursor: pointer;
+    /* border: 1px solid pink; */
+    
+}
+
+.paginationContainer ul {
+    list-style: none;
+    
+}
+
+.paginationContainer ul li {
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    
+    margin-left: 10px;
+    transition: transform 0.5s ease;
+
+}
+
+.paginationContainer ul li:hover{
+    transform: translateY(-10px);
+    /* background-color: #039be5; */
+
+}

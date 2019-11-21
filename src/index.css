@@ -1,12 +1,13 @@
 * {
     padding: 0;
     margin: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
+    /* background-color: rgba(38, 153, 251, 1); */
+    /* background-color: #f4f4f4f4; */
     background-color: #ffffff;
     color: #555;
     font-family: 'Lato', Arial, sans-serif;
@@ -14,19 +15,4 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
-}
-
-@media only screen and (max-width: 1023px) {
-    body { font-size: 18px; }
-}
-
-/* Phones smaller than iPad: from 481 - 767 px */
-@media only screen and (max-width: 767px) {
-    body { font-size: 16px; }
-    
-
-    
-    
-    
-
 }
